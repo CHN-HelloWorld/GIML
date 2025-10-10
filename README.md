@@ -6,8 +6,9 @@
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)
 ![License](https://img.shields.io/badge/license-Proprietary-red.svg)
 
-## 📖 简介
+## ⚠️ 重要：仅面向GIMI加载器用户使用
 
+## 📖 简介
 原神Mod启动器（GIML）是一款专为原神玩家设计的图形化工具，用于简化游戏Mod的管理和启动流程。通过自动化处理软链接创建、配置文件更新和游戏启动等操作，让你能够更轻松地享受Mod带来的游戏体验。
 
 **核心功能**：
