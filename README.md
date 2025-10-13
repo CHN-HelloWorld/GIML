@@ -39,7 +39,11 @@
 
 2. **配置 GIMI 文件夹路径**
    - 点击"浏览"按钮选择你的 GIMI 文件夹
-   - 该文件夹应包含 Core、Mods 等子文件夹
+   - 必须保证该文件夹包含以下文件夹或文件，且必须有效：
+     
+      文件夹：Core、Mods、ShaderCache、ShaderFixes
+     
+      文件：d3dcompiler_47.dll、d3dx_user.ini
 
 3. **配置原神游戏路径**
    - 点击"浏览"按钮选择原神游戏的可执行文件
