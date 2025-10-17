@@ -2,7 +2,7 @@
 
 ⚡ **Genshin Impact Mod Launcher** - 专为原神玩家设计的优雅Mod启动工具
 
-![Version](https://img.shields.io/badge/version-1.5.0-blue.svg)
+![Version](https://img.shields.io/badge/version-1.5.1-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)
 ![License](https://img.shields.io/badge/license-Proprietary-red.svg)
 
@@ -160,7 +160,7 @@ A: 不需要，清除软链接只是删除链接文件，不会清除配置。�
 ## 👨‍💻 项目信息
 
 - **项目名称**: GIML (Genshin Impact Mod Launcher)
-- **版本**: 1.5.0
+- **版本**: 1.5.1
 - **作者**: Aether
 - **许可证**: 专有软件许可证（Proprietary License）
 
