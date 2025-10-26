@@ -1,6 +1,8 @@
 # 原神Mod启动器 (GIML)
 
-⚡ **Genshin Impact Mod Launcher** - 专为原神玩家设计的优雅Mod启动工具
+⚡ **Genshin Impact Mod Launcher** - 专为原神玩家设计的Mod防报错启动工具
+
+## 6.1版本依旧可用
 
 ![Version](https://img.shields.io/badge/version-1.5.2-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)
@@ -10,11 +12,12 @@
 
 **适用对象**：支持 XXMI 的 GIMI 加载器和 3DMigoto 的 work 目录两种模式
 
-**兼容性提示**：本启动器目前仅在部分设备上可以有效规避游戏报错，尚未完全确定兼容性问题的根本原因。如果您的设备无法正常使用，请耐心等待后续版本更新。
+**兼容性提示**：本启动器目前仅在大部分设备上有效规避游戏报错，尚未完全确定兼容性问题的根本原因。如果您的设备无法正常使用，请耐心等待后续版本更新。
 
 ## 程序界面
-
 ![程序运行界面](RunImage.png)
+
+## 运行效果
 ![运行效果界面](ResultImage.png)
 
 ## 🖥️ 系统要求
