@@ -4,7 +4,7 @@
 
 ## 6.1版本依旧可用
 
-![Version](https://img.shields.io/badge/version-1.5.2-blue.svg)
+![Version](https://img.shields.io/badge/version-1.5.3-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)
 ![License](https://img.shields.io/badge/license-Proprietary-red.svg)
 
@@ -163,7 +163,7 @@ A: 不需要，清除软链接只是删除链接文件，不会清除配置。�
 ## 👨‍💻 项目信息
 
 - **项目名称**: GIML (Genshin Impact Mod Launcher)
-- **版本**: 1.5.2
+- **版本**: 1.5.3
 - **作者**: Aether
 - **许可证**: 专有软件许可证（Proprietary License）
 
@@ -189,4 +189,4 @@ A: 不需要，清除软链接只是删除链接文件，不会清除配置。�
 
 **免责声明**: 本工具仅供学习和研究使用。使用Mod可能违反游戏服务条款，请自行承担风险。
 
-**最后更新**: 2025年10月17日
+**最后更新**: 2025年10月27日
