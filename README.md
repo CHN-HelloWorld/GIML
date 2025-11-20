@@ -4,7 +4,7 @@
 
 ## 6.1版本依旧可用
 
-![Version](https://img.shields.io/badge/version-2.0.1-blue.svg)
+![Version](https://img.shields.io/badge/version-2.0.2-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)
 ![License](https://img.shields.io/badge/license-Proprietary-red.svg)
 [![GitHub all releases](https://img.shields.io/github/downloads/CHN-HelloWorld/GIML/total)](https://github.com/CHN-HelloWorld/GIML/releases/latest)
