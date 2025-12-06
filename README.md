@@ -4,7 +4,7 @@
 
 ## 6.2版本依旧可用
 
-![Version](https://img.shields.io/badge/version-2.0.5-blue.svg)
+![Version](https://img.shields.io/badge/version-2.0.6-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)
 ![License](https://img.shields.io/badge/license-Proprietary-red.svg)
 [![GitHub all releases](https://img.shields.io/github/downloads/CHN-HelloWorld/GIML/total)](https://github.com/CHN-HelloWorld/GIML/releases/latest)
@@ -169,7 +169,7 @@ A: 程序支持高DPI自适应，请检查Windows系统显示设置中的缩放�
 A: 不需要，配置不会丢失，下次启动时会自动重新创建软链接。
 
 **Q: 启动器报错与游戏版本不兼容？**  
-A: 目前最新启动器仅适配6.2版本，倘若您确信自己是6.2版本，请使用官方启动器启动进入一次游戏，然后再使用GIML启动即可
+A: 使用启动器的自动修复即可
 
 ## 💡 程序特点
 
@@ -185,10 +185,10 @@ A: 目前最新启动器仅适配6.2版本，倘若您确信自己是6.2版本�
 ## 👨‍💻 项目信息
 
 - **项目名称**: GIML (Genshin Impact Mod Launcher)
-- **版本**: 2.0.5
+- **版本**: 2.0.6
 - **作者**: Aether
 - **许可证**: 专有软件许可证（Proprietary License）
-- **更新时间**: 2025年12月3日
+- **更新时间**: 2025年12月6日
 
 ## 🤝 反馈与支持
 
@@ -211,4 +211,4 @@ A: 目前最新启动器仅适配6.2版本，倘若您确信自己是6.2版本�
 
 **免责声明**: 本工具仅供学习和研究使用。使用Mod可能违反游戏服务条款，请自行承担风险。我们不提倡在正式服务器使用Mod，建议仅在私人服务器使用。
 
-**最后更新**: 2025年12月3日
+**最后更新**: 2025年12月6日
