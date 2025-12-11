@@ -4,7 +4,7 @@
 
 ## 6.2 版本依旧可用
 
-![Version](https://img.shields.io/badge/version-2.0.7-blue.svg)
+![Version](https://img.shields.io/badge/version-2.0.8-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)
 ![License](https://img.shields.io/badge/license-Proprietary-red.svg)
 [![GitHub all releases](https://img.shields.io/github/downloads/CHN-HelloWorld/GIML/total)](https://github.com/CHN-HelloWorld/GIML/releases/latest)
@@ -216,7 +216,7 @@ A: 使用启动器的自动修复即可
 ## 👨‍💻 项目信息
 
 - **项目名称**: GIML (Genshin Impact Mod Launcher)
-- **版本**: 2.0.7
+- **版本**: 2.0.8
 - **作者**: Aether
 - **许可证**: 专有软件许可证（Proprietary License）
 - **更新时间**: 2025 年 12 月 11 日
