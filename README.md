@@ -4,7 +4,7 @@
 
 **✅ 6.2 版本可用**
 
-![Version](https://img.shields.io/badge/version-2.0.8-blue.svg)
+![Version](https://img.shields.io/badge/version-2.0.9-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)
 ![License](https://img.shields.io/badge/license-Proprietary-red.svg)
 [![GitHub all releases](https://img.shields.io/github/downloads/CHN-HelloWorld/GIML/total)](https://github.com/CHN-HelloWorld/GIML/releases/latest)
@@ -62,8 +62,8 @@
 
 **基础设置**：
 - **DLL 版本选择**：遇到"与服务器断开连接"或者"非法工具错误"可尝试切换版本
-- **防报错方案**：隐匿法（默认）/ 双生法（更快）/ 双法结合（更全面）
-- **手动启动游戏**：仅启动 Mod 加载器，手动启动游戏
+- **防报错方案**：截流法 / 隐匿法 / 双生法（支持多选，默认全选）
+- **手动启动游戏**：仅启动 Mod 加载器，在 10 秒内手动启动游戏
 
 **帧率与画面设置**：目标帧率、窗口模式、显示器选择、分辨率、HDR 等
 
@@ -107,11 +107,11 @@
 
 | 方案 | 特点 |
 |---|---|
-| 隐匿法 | 默认，传统方案，稳定可靠 |
+| 截流法 | 内核级网络拦截，阻止数据上报 |
+| 隐匿法 | 传统方案，稳定可靠 |
 | 双生法 | 更轻量，启动更快，针对性强 |
-| 双法结合 | 双重防护，更全面但稍慢 |
 
-不确定选哪个，保持默认"隐匿法"即可。
+**提示**：三种方案可同时勾选，默认全选以获得最佳防护效果。
 
 ### Q: 帧率应该设置多少？
 
@@ -136,10 +136,10 @@
 | 项目 | 信息 |
 |---|---|
 | 项目名称 | GIML (Genshin Impact Mod Launcher) |
-| 版本 | 2.0.8 |
+| 版本 | 2.0.9 |
 | 作者 | Aether |
 | 许可证 | 专有软件许可证 (Proprietary License) |
-| 更新时间 | 2025 年 12 月 16 日 |
+| 更新时间 | 2025 年 12 月 24 日 |
 
 ## 🤝 反馈与支持
 
