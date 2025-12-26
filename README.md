@@ -4,7 +4,7 @@
 
 **✅ 6.2 版本可用**
 
-![Version](https://img.shields.io/badge/version-2.0.10-blue.svg)
+![Version](https://img.shields.io/badge/version-2.0.11-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)
 ![License](https://img.shields.io/badge/license-Proprietary-red.svg)
 [![GitHub all releases](https://img.shields.io/github/downloads/CHN-HelloWorld/GIML/total)](https://github.com/CHN-HelloWorld/GIML/releases/latest)
@@ -63,6 +63,7 @@
 **基础设置**：
 - **DLL 版本选择**：遇到"与服务器断开连接"或者"非法工具错误"可尝试切换版本
 - **防报错方案**：截流法 / 隐匿法 / 双生法（支持多选，默认全选）
+- **截流法拦截模式**：基础模式 / 增强模式（勾选截流法后可选）
 - **手动启动游戏**：仅启动 Mod 加载器，在 10 秒内手动启动游戏
 
 **帧率与画面设置**：目标帧率、窗口模式、显示器选择、分辨率、HDR 等
@@ -113,6 +114,15 @@
 
 **提示**：三种方案可同时勾选，默认全选以获得最佳防护效果。
 
+### Q: 截流法的基础模式和增强模式有什么区别？
+
+| 模式 | 特点 |
+|---|---|
+| 基础模式 | 不影响其他应用网络，但是效果一般 |
+| 增强模式 | 影响微信等应用的网络连接，但是效果更佳 |
+
+**提示**：默认使用基础模式。如果基础模式下仍然出现报错，可尝试切换到增强模式。
+
 ### Q: 帧率应该设置多少？
 
 建议根据显示器刷新率设置：60Hz→60FPS，144Hz→144FPS，240Hz→240FPS。程序会自动将上限设为显示器最高刷新率。
@@ -136,7 +146,7 @@
 | 项目 | 信息 |
 |---|---|
 | 项目名称 | GIML (Genshin Impact Mod Launcher) |
-| 版本 | 2.0.10 |
+| 版本 | 2.0.11 |
 | 作者 | Aether |
 | 许可证 | 专有软件许可证 (Proprietary License) |
 | 更新时间 | 2025 年 12 月 26 日 |
