@@ -1,6 +1,6 @@
 # 原神 Mod 启动器 (GIML)
 
-⚡ **Genshin Impact Mod Launcher** - 专为原神玩家设计的 Mod 防报错启动工具
+⚡ **Genshin Impact Mod Launcher** - 专为原神设计的 Mod 防报错启动工具
 
 **✅ 6.2 版本可用**
 
@@ -8,6 +8,18 @@
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)
 ![License](https://img.shields.io/badge/license-Proprietary-red.svg)
 [![GitHub all releases](https://img.shields.io/github/downloads/CHN-HelloWorld/GIML/total)](https://github.com/CHN-HelloWorld/GIML/releases/latest)
+
+---
+
+<div align="center">
+
+### 💬 QQ 交流群：1075913947
+
+**欢迎加群交流使用经验 · 反馈问题 · 获取更新通知**
+
+</div>
+
+---
 
 ## ⚠️ 重要说明
 
@@ -108,7 +120,7 @@
 
 | 方案 | 特点 |
 |---|---|
-| 截流法 | 内核级网络拦截，阻止数据上报 |
+| 截流法 | 阻止数据上报 |
 | 隐匿法 | 传统方案，稳定可靠 |
 | 双生法 | 更轻量，启动更快，针对性强 |
 
@@ -153,7 +165,10 @@
 
 ## 🤝 反馈与支持
 
-如遇问题或有建议，欢迎在 [Issues](https://github.com/CHN-HelloWorld/GIML/issues) 页面提交反馈。
+如遇问题或有建议，欢迎通过以下方式联系我们：
+
+- **GitHub Issues**: [提交问题或建议](https://github.com/CHN-HelloWorld/GIML/issues)
+- **QQ 交流群**: 1075913947
 
 ## 📜 许可证
 
@@ -171,3 +186,19 @@
 **免责声明**: 本工具仅供学习和研究使用。使用 Mod 可能违反游戏服务条款，请自行承担风险。我们不提倡在正式服务器使用 Mod，建议仅在私人服务器使用。
 
 **🙏 感谢所有为原神 Mod 社区做出贡献的开发者和玩家！**
+
+---
+
+## 💝 赞赏支持
+
+**⚠️ 本启动器依赖游戏生态，请优先考虑支持游戏而不是本启动器！**
+
+如果您觉得本项目对您有帮助，可以通过以下方式支持开发者：
+
+<p align="center">
+  <img src="Appreciation code.png" alt="赞赏码" width="300">
+</p>
+
+<p align="center">
+  <em>您的支持是我们持续更新的动力！</em>
+</p>
