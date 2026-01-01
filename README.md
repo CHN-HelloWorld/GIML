@@ -13,7 +13,7 @@
 
 <div align="center">
 
-### 💬 QQ 交流群：1075913947
+### 💬 QQ 交流群：[1075913947](https://qm.qq.com/q/qYrUfeigeI)
 
 **欢迎加群交流使用经验 · 反馈问题 · 获取更新通知**
 
@@ -168,7 +168,7 @@
 如遇问题或有建议，欢迎通过以下方式联系我们：
 
 - **GitHub Issues**: [提交问题或建议](https://github.com/CHN-HelloWorld/GIML/issues)
-- **QQ 交流群**: 1075913947
+- **QQ 交流群**: [1075913947](https://qm.qq.com/q/qYrUfeigeI)
 
 ## 📜 许可证
 
