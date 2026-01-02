@@ -4,10 +4,16 @@
 
 **✅ 6.2 版本可用**
 
-![Version](https://img.shields.io/badge/version-2.0.13-blue.svg)
-![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)
-![License](https://img.shields.io/badge/license-Proprietary-red.svg)
-[![GitHub all releases](https://img.shields.io/github/downloads/CHN-HelloWorld/GIML/total)](https://github.com/CHN-HelloWorld/GIML/releases/latest)
+<div align="center">
+  <img src="icon.png" alt="GIML Icon" width="200">
+  
+  <p>
+    <img src="https://img.shields.io/badge/version-2.0.13-blue.svg" alt="Version">
+    <img src="https://img.shields.io/badge/platform-Windows-lightgrey.svg" alt="Platform">
+    <img src="https://img.shields.io/badge/license-Proprietary-red.svg" alt="License">
+    <a href="https://github.com/CHN-HelloWorld/GIML/releases/latest"><img src="https://img.shields.io/github/downloads/CHN-HelloWorld/GIML/total" alt="Downloads"></a>
+  </p>
+</div>
 
 ---
 
@@ -28,9 +34,34 @@
 
 ## 📷 程序界面
 
-| 主界面 | 设置界面 | 运行效果 |
-|:---:|:---:|:---:|
-| ![主界面](RunImage1.png) | ![设置1](RunImage2.png) ![设置2](RunImage3.png) | ![效果](ResultImage.png) |
+> **提示**: 以下为程序界面展示，包含主界面、设置界面和运行效果
+
+<div align="center">
+
+<!-- 主界面 -->
+<details open>
+<summary><b>📱 主界面</b></summary>
+<br>
+<img src="RunImage1.png" alt="主界面" width="80%">
+</details>
+
+<!-- 设置界面 -->
+<details>
+<summary><b>⚙️ 设置界面</b></summary>
+<br>
+<img src="RunImage2.png" alt="设置界面1" width="80%">
+<br><br>
+<img src="RunImage3.png" alt="设置界面2" width="80%">
+</details>
+
+<!-- 运行效果 -->
+<details>
+<summary><b>✨ 运行效果</b></summary>
+<br>
+<img src="ResultImage.png" alt="运行效果" width="80%">
+</details>
+
+</div>
 
 ## 🖥️ 系统要求
 
