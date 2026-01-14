@@ -2,13 +2,13 @@
 
 ⚡ **Genshin Impact Mod Launcher** - 专为原神设计的 Mod 防报错启动工具
 
-**✅ 6.2 版本可用**
+**✅ 6.3 版本可用**
 
 <div align="center">
   <img src="icon.png" alt="GIML Icon" width="200">
   
   <p>
-    <img src="https://img.shields.io/badge/version-2.0.13-blue.svg" alt="Version">
+    <img src="https://img.shields.io/badge/version-2.1.0-blue.svg" alt="Version">
     <img src="https://img.shields.io/badge/platform-Windows-lightgrey.svg" alt="Platform">
     <img src="https://img.shields.io/badge/license-Proprietary-red.svg" alt="License">
     <a href="https://github.com/CHN-HelloWorld/GIML/releases/latest"><img src="https://img.shields.io/github/downloads/CHN-HelloWorld/GIML/total" alt="Downloads"></a>
@@ -29,7 +29,7 @@
 
 ## ⚠️ 重要说明
 
-- **适用对象**：支持 XXMI 的 GIMI 加载器和 d3dxSkinManage 的 work 目录两种模式（work 模式也兼容 3DMigoto）
+- **适用对象**：支持 XXMI 的 GIMI 加载器和 3DMigoto 程序两种模式（兼容 d3dxSkinManage 的 work 目录）
 - **兼容性提示**：本启动器在大部分设备上有效规避游戏报错，尚未完全确定兼容性问题的根本原因。如果您的设备无法正常使用，请耐心等待后续版本更新。
 
 ## 📷 程序界面
@@ -86,7 +86,7 @@
 | 模式 | 适用场景 |
 |---|---|
 | GIMI 模式 | XXMI 的 GIMI 目录 |
-| work 模式 | d3dxSkinManage 的 work 目录 或者 3DMigoto 程序目录|
+| 3DMigoto 模式 | 3DMigoto 程序目录（兼容 d3dxSkinManage 的 work 目录）|
 
 一键切换，配置互不干扰，自动保存。
 
@@ -118,14 +118,14 @@
 1. **以管理员身份启动程序**
 
 2. **选择工作模式**
-   - 默认为 GIMI 模式，点击切换按钮可切换至 work 模式
+   - 默认为 GIMI 模式，点击切换按钮可切换至 3DMigoto 模式
 
 3. **配置文件夹路径**
 
    | 模式 |选择目标路径| 必需内容 | 可选内容 |
    |---|---|---|---|
-   | GIMI |XXMI 的 GIMI 目录| Core、Mods、ShaderCache、ShaderFixes 文件夹 | d3dcompiler_47.dll、d3dx_user.ini |
-   | work |d3dxSkinManage 的 work 目录 或者 3DMigoto 程序目录| Mods、ShaderCache、ShaderFixes 文件夹 和 3DMigoto Loader.exe、d3dx.ini | d3dcompiler_46.dll、d3dx_user.ini |
+   | GIMI 模式 |XXMI 的 GIMI 目录| Core、Mods、ShaderCache、ShaderFixes 文件夹 | d3dcompiler_47.dll、d3dx_user.ini |
+   | 3DMigoto 模式 |3DMigoto 程序目录（兼容 d3dxSkinManage 的 work 目录）| Mods、ShaderCache、ShaderFixes 文件夹 和 3DMigoto Loader.exe、d3dx.ini | d3dcompiler_46.dll、d3dx_user.ini |
 
 4. **配置原神路径**
    - 选择原神可执行文件（`YuanShen.exe` 或 `GenshinImpact.exe`）
@@ -143,9 +143,11 @@
 
 右键点击程序，选择"以管理员身份运行"。
 
-### Q: 出现"与服务器断开连接"错误？
+### Q: 出现"与服务器断开连接"、“非法工具”错误？
 
-在"设置"→"基础"中切换不同的 DLL 版本，推荐优先选择较高版本号（如 0.7.0、0.6.8）。
+#### 请尝试下面的方案
+- 关闭一切杀毒软件，保证三种防报错方案全部勾选，若报错，可重新进游戏，再观察
+- 可以尝试在"设置"→"基础"中切换不同的 DLL 版本，推荐优先选择较高版本号（如 0.7.0、0.6.8）。
 
 ### Q: 不同防报错方案有什么区别？
 
@@ -164,7 +166,23 @@
 | 基础模式 | 不影响其他应用网络，但是效果一般 |
 | 增强模式 | 影响微信等应用的网络连接，但是效果更佳 |
 
-**提示**：默认使用基础模式。如果基础模式下仍然出现报错，可尝试切换到增强模式。
+**提示**：默认使用基础模式。如果基础模式下仍然出现报错，可尝试切换到增强模式。**使用此方法不需要使用火绒拦截**
+
+### Q：启动后不显示Mod？
+
+请确认是否关闭了AI插帧功能
+
+### Q：GIMI无法产出数据 & 找不到GIMI产出的数据 & GIMI产出的数据丢失？
+
+产出的数据位于GIML的工作目录下而非您的GIMI目录，您可以使用GIML主页的“工作目录”按钮访问工作目录
+
+### Q:游戏窗口不见 & 游戏崩溃
+
+使用了不兼容的Mod，请排查您的Mod，并将不兼容的Mod移除
+
+### Q:运行GIML没反应？
+
+很抱歉您遇到了此问题，此问题是因为底层依赖库不支持您的设备，您目前**无法使用GIML**
 
 ### Q: 帧率应该设置多少？
 
@@ -189,10 +207,10 @@
 | 项目 | 信息 |
 |---|---|
 | 项目名称 | GIML (Genshin Impact Mod Launcher) |
-| 版本 | 2.0.13 |
+| 版本 | 2.1.0 |
 | 作者 | Aether |
 | 许可证 | 专有软件许可证 (Proprietary License) |
-| 更新时间 | 2025 年 12 月 30 日 |
+| 更新时间 | 2026 年 1 月 14 日 |
 
 ## 🤝 反馈与支持
 
