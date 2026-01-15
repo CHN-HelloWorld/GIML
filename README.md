@@ -8,7 +8,7 @@
   <img src="icon.png" alt="GIML Icon" width="200">
   
   <p>
-    <img src="https://img.shields.io/badge/version-2.1.1-blue.svg" alt="Version">
+    <img src="https://img.shields.io/badge/version-2.1.2-blue.svg" alt="Version">
     <img src="https://img.shields.io/badge/platform-Windows-lightgrey.svg" alt="Platform">
     <img src="https://img.shields.io/badge/license-Proprietary-red.svg" alt="License">
     <a href="https://github.com/CHN-HelloWorld/GIML/releases/latest"><img src="https://img.shields.io/github/downloads/CHN-HelloWorld/GIML/total" alt="Downloads"></a>
@@ -108,6 +108,10 @@
 - **防报错方案**：截流法 / 隐匿法 / 双生法（支持多选，默认全选）
 - **截流法拦截模式**：基础模式 / 增强模式（勾选截流法后可选）
 - **手动启动游戏**：仅启动 Mod 加载器，在 10 秒内手动启动游戏
+- **延迟启动游戏时间**：设置自动启动游戏的延迟时间（毫秒），可根据电脑性能调整，范围 1-7000ms，默认 1000ms（1秒）
+
+**主界面选项**：
+- **显示 GIMI 警告**：勾选后会在日志中显示 GIMI 相关的警告信息，方便排查 Mod 加载问题（默认不显示）
 
 **帧率与画面设置**：目标帧率、窗口模式、显示器选择、分辨率、HDR 等
 
@@ -203,15 +207,27 @@
 
 使用启动器的自动修复功能即可。
 
+### Q: 启动时出现 Windows Defender 白名单申请对话框？
+
+这是正常现象。启动器的防报错引擎存在敏感行为（如进程注入等），可能被 Windows Defender 误报为病毒。建议同意将程序目录添加到 Windows 安全中心白名单，以确保启动器正常运行。
+
+### Q: 如何调整游戏启动等待时间？
+
+如果您的电脑启动速度较慢，或者启动过程中遇到时序问题，可以在"设置"→"基础"中调整"延迟启动游戏时间"。默认为 1000 毫秒（1秒），范围 1-7000 毫秒，可根据实际情况增加延迟时间。
+
+### Q: 如何查看 GIMI 警告日志？
+
+如果您在使用 Mod 时遇到加载问题，可以在主界面勾选"显示 GIMI 警告"选项，以便在日志中查看详细的 GIMI 警告信息，帮助排查 Mod 加载相关问题。默认情况下此选项是关闭的。
+
 ## 👨‍💻 项目信息
 
 | 项目 | 信息 |
 |---|---|
 | 项目名称 | GIML (Genshin Impact Mod Launcher) |
-| 版本 | 2.1.1 |
+| 版本 | 2.1.2 |
 | 作者 | Aether |
 | 许可证 | 专有软件许可证 (Proprietary License) |
-| 更新时间 | 2026 年 1 月 14 日 |
+| 更新时间 | 2026 年 1 月 15 日 |
 
 ## 🤝 反馈与支持
 
