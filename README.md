@@ -8,7 +8,7 @@
   <img src="icon.png" alt="GIML Icon" width="200">
   
   <p>
-    <img src="https://img.shields.io/badge/version-2.1.2-blue.svg" alt="Version">
+    <img src="https://img.shields.io/badge/version-2.1.3-blue.svg" alt="Version">
     <img src="https://img.shields.io/badge/platform-Windows-lightgrey.svg" alt="Platform">
     <img src="https://img.shields.io/badge/license-Proprietary-red.svg" alt="License">
     <a href="https://github.com/CHN-HelloWorld/GIML/releases/latest"><img src="https://img.shields.io/github/downloads/CHN-HelloWorld/GIML/total" alt="Downloads"></a>
@@ -141,6 +141,33 @@
 
 配置完成后：**管理员运行** → **点击启动** → **3 秒后自动退出**
 
+### 🚀 高级功能：命令行自动启动（适合进阶用户）
+
+**适用场景**：
+- 创建桌面快捷方式一键启动GIML（无需手动点击启动按钮）
+- 通过批处理脚本实现自动化启动
+- 配合 其他应用程序 启动GIML
+
+**使用方法**：
+
+1. **创建快捷方式**
+   - 右键桌面 → 新建 → 快捷方式
+   - 输入目标路径：`"D:\启动器路径\GIML.exe" --auto-launch`（请替换为实际路径）
+   - 命名快捷方式（如"一键启动原神"）
+   - 右键快捷方式 → 属性 → 高级 → 勾选"用管理员身份运行"
+
+2. **批处理脚本示例**
+   ```batch
+   @echo off
+   cd /d "D:\启动器路径"
+   GIML.exe --auto-launch
+   ```
+
+**工作方式**：
+- 使用 `--auto-launch` 参数后，启动器会直接进入启动流程
+
+> ⚠️ **注意**：使用自动启动前，请确保已在界面中完成所有必要的配置（路径、模式、防报错方案等）。如果配置有误，启动器会弹出错误提示并停止运行。
+
 ## ❓ 常见问题
 
 ### Q: 启动时提示"需要管理员权限"？
@@ -224,15 +251,21 @@
 
 如果您在使用 Mod 时遇到加载问题，可以在主界面勾选"显示 GIMI 警告"选项，以便在日志中查看详细的 GIMI 警告信息，帮助排查 Mod 加载相关问题。默认情况下此选项是关闭的。
 
+### Q: 如何使用命令行自动启动功能？
+
+**适合人群**：熟悉命令行操作的进阶用户、需要脚本自动化的用户
+
+启动器支持通过 `--auto-launch` 参数实现自动启动，无需手动点击启动按钮。详见"使用指南"中的"高级功能：命令行自动启动"
+
 ## 👨‍💻 项目信息
 
 | 项目 | 信息 |
 |---|---|
 | 项目名称 | GIML (Genshin Impact Mod Launcher) |
-| 版本 | 2.1.2 |
+| 版本 | 2.1.3 |
 | 作者 | Aether |
 | 许可证 | 专有软件许可证 (Proprietary License) |
-| 更新时间 | 2026 年 1 月 15 日 |
+| 更新时间 | 2026 年 1 月 17 日 |
 
 ## 🤝 反馈与支持
 
