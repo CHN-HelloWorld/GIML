@@ -8,7 +8,7 @@
   <img src="icon.png" alt="GIML Icon" width="200">
   
   <p>
-    <img src="https://img.shields.io/badge/version-2.1.4-blue.svg" alt="Version">
+    <img src="https://img.shields.io/badge/version-2.1.5-blue.svg" alt="Version">
     <img src="https://img.shields.io/badge/platform-Windows-lightgrey.svg" alt="Platform">
     <img src="https://img.shields.io/badge/license-Proprietary-red.svg" alt="License">
     <a href="https://github.com/CHN-HelloWorld/GIML/releases/latest"><img src="https://img.shields.io/github/downloads/CHN-HelloWorld/GIML/total" alt="Downloads"></a>
@@ -262,10 +262,10 @@
 | 项目 | 信息 |
 |---|---|
 | 项目名称 | GIML (Genshin Impact Mod Launcher) |
-| 版本 | 2.1.4 |
+| 版本 | 2.1.5 |
 | 作者 | Aether |
 | 许可证 | 专有软件许可证 (Proprietary License) |
-| 更新时间 | 2026 年 1 月 18 日 |
+| 更新时间 | 2026 年 1 月 19 日 |
 
 ## 🤝 反馈与支持
 
