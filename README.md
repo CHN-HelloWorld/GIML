@@ -128,7 +128,7 @@
 
    | 模式 |选择目标路径| 必需内容 | 可选内容 |
    |---|---|---|---|
-   | GIMI 模式 |XXMI 的 GIMI 目录| Core、Mods、ShaderCache、ShaderFixes 文件夹 | d3dcompiler_47.dll、d3dx_user.ini |
+   | GIMI 模式 |XXMI 的 GIMI 目录| Core、Mods、ShaderCache、ShaderFixes 文件夹 和 d3dx.ini | d3dcompiler_47.dll、d3dx_user.ini |
    | 3DMigoto 模式 |3DMigoto 程序目录（兼容 d3dxSkinManage 的 work 目录）| Mods、ShaderCache、ShaderFixes 文件夹 和 3DMigoto Loader.exe、d3dx.ini | d3dcompiler_46.dll、d3dx_user.ini |
 
 4. **配置原神路径**
