@@ -8,7 +8,7 @@
   <img src="icon.png" alt="GIML Icon" width="200">
 
   <p>
-    <img src="https://img.shields.io/badge/version-2.1.7-blue.svg" alt="Version">
+    <img src="https://img.shields.io/badge/version-2.1.8-blue.svg" alt="Version">
     <img src="https://img.shields.io/badge/platform-Windows-lightgrey.svg" alt="Platform">
     <img src="https://img.shields.io/badge/license-Proprietary-red.svg" alt="License">
     <a href="https://github.com/CHN-HelloWorld/GIML/releases/latest"><img src="https://img.shields.io/github/downloads/CHN-HelloWorld/GIML/total" alt="Downloads"></a>
@@ -99,7 +99,7 @@
 | DLL 版本 | 遇到"与服务器断开连接"或"非法工具"错误时可尝试切换版本 |
 | 防报错方案 | 截流法 / 隐匿法 / 双生法，支持多选，默认全选 |
 | 截流法拦截模式 | 基础模式（不影响其他应用网络） / 增强模式（效果更强，会影响微信等应用网络） |
-| 手动启动游戏 | 仅启动 Mod 加载器，需在 10 秒内手动启动游戏 |
+| 手动启动游戏 | 仅启动 Mod 加载器，需在 15 秒内手动启动游戏 |
 | 延迟启动时间 | 自动启动游戏前的等待时间，范围 1–7000ms，默认 1000ms |
 | 显示 GIMI 警告 | 在游戏窗口左上角显示 GIMI 相关警告，方便排查 Mod 加载问题（默认关闭） |
 
@@ -278,10 +278,10 @@ GIML.exe --auto-launch
 | 项目 | 信息 |
 |---|---|
 | 名称 | GIML (Genshin Impact Mod Launcher) |
-| 版本 | 2.1.7 |
+| 版本 | 2.1.8 |
 | 作者 | Aether |
 | 许可证 | 专有软件许可证 (Proprietary License) |
-| 更新时间 | 2026 年 2 月 6 日 |
+| 更新时间 | 2026 年 2 月 15 日 |
 
 ## 🤝 反馈与支持
 
