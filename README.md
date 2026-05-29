@@ -252,6 +252,7 @@ GIML.exe --auto-launch
 <summary><b>游戏窗口不见 / 游戏崩溃</b></summary>
 
 - 使用了不兼容的 Mod —— 请排查并移除
+- 将启动器目录整体上移一级，如之前是：D:\1\2\GIML，上移一级为：D:\1\GIML
 - d3dx.ini 配置不正确 —— 请使用 XXMI-GIMI 或 3DMigoto-GIMI 官方配置文件，而非第三方整合
 </details>
 
