@@ -1,5 +1,7 @@
 # 原神 Mod 启动器 (GIML)
 
+**简体中文** | [English](README.en.md)
+
 ⚡ **Genshin Impact Mod Launcher** — 专为原神设计的 Mod 防报错启动工具
 
 **✅ 6.6 版本可用**
@@ -8,7 +10,7 @@
   <img src="icon.png" alt="GIML Icon" width="200">
 
   <p>
-    <img src="https://img.shields.io/badge/version-2.5.0-blue.svg" alt="Version">
+    <img src="https://img.shields.io/badge/version-2.5.1-blue.svg" alt="Version">
     <img src="https://img.shields.io/badge/platform-Windows-lightgrey.svg" alt="Platform">
     <img src="https://img.shields.io/badge/license-Proprietary-red.svg" alt="License">
     <a href="https://github.com/CHN-HelloWorld/GIML/releases/latest"><img src="https://img.shields.io/github/downloads/CHN-HelloWorld/GIML/total" alt="Downloads"></a>
@@ -97,7 +99,7 @@
 | 选项 | 说明 |
 |---|---|
 | DLL 版本 | 遇到"与服务器断开连接"或"非法工具"错误时可尝试切换版本 |
-| 防报错方案 | 截流法 / 隐匿法 / 双生法，支持多选，默认全选 |
+| 防报错方案 | 截流法 / 隐匿法 / 双生法 / 衣钵法，支持多选，默认全选 |
 | 截流法拦截模式 | 基础模式（不影响其他应用网络） / 增强模式（效果更强，会影响微信等应用网络） |
 | 手动启动游戏 | 仅启动 Mod 加载器，需在 15 秒内手动启动游戏 |
 | 延迟启动时间 | 自动启动游戏前的等待时间，范围 1–7000ms，默认 1000ms |
@@ -199,15 +201,22 @@ GIML.exe --auto-launch
 </details>
 
 <details>
-<summary><b>三种防报错方案有什么区别？</b></summary>
+<summary><b>四种防报错方案有什么区别？</b></summary>
 
 | 方案 | 特点 |
 |---|---|
 | 截流法 | 过滤传输流量 |
 | 隐匿法 | 传统方案，稳定可靠 |
 | 双生法 | 更轻量、启动更快、针对性强 |
+| 衣钵法 | 新一代方案，针对性极强，效果出众，多设备兼容性好 |
 
 默认全选以获得最佳防护效果。
+</details>
+
+<details>
+<summary><b>衣钵法和双生法为什么不能同时启用？</b></summary>
+
+两者技术路线存在冲突，无法同时生效。勾选衣钵法后，双生法选项会自动置灰禁用。推荐将衣钵法与隐匿法搭配使用
 </details>
 
 <details>
@@ -295,10 +304,10 @@ GIML.exe --auto-launch
 | 项目 | 信息 |
 |---|---|
 | 名称 | GIML (Genshin Impact Mod Launcher) |
-| 版本 | 2.5.0 |
+| 版本 | 2.5.1 |
 | 作者 | Aether |
 | 许可证 | 专有软件许可证 (Proprietary License) |
-| 更新时间 | 2026 年 5 月 20 日 |
+| 更新时间 | 2026 年 6 月 9 日 |
 
 ## 🤝 反馈与支持
 
