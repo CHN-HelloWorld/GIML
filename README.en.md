@@ -10,7 +10,7 @@
   <img src="icon.png" alt="GIML Icon" width="200">
 
   <p>
-    <img src="https://img.shields.io/badge/version-2.5.1-blue.svg" alt="Version">
+    <img src="https://img.shields.io/badge/version-2.5.2-blue.svg" alt="Version">
     <img src="https://img.shields.io/badge/platform-Windows-lightgrey.svg" alt="Platform">
     <img src="https://img.shields.io/badge/license-Proprietary-red.svg" alt="License">
     <a href="https://github.com/CHN-HelloWorld/GIML/releases/latest"><img src="https://img.shields.io/github/downloads/CHN-HelloWorld/GIML/total" alt="Downloads"></a>
@@ -208,7 +208,7 @@ Try the following in order:
 | Traffic Interception | Filters transmitted traffic |
 | Stealth | Traditional approach, stable and reliable |
 | Twin | Lighter, faster to start, highly targeted |
-| Patch Inheritance | Next-generation method; highly targeted, excellent effectiveness, and broad device compatibility |
+| Patch Inheritance | Next-generation method; highly targeted, excellent effectiveness, and broad device compatibility. **The manual mode scenario has poor compatibility and may cause the game to crash. Restarting GIML and retrying can solve this problem.** |
 
 All are enabled by default for the best protection.
 </details>
@@ -260,6 +260,7 @@ The produced data lives in GIML's **working directory**, not the original GIMI d
 <details>
 <summary><b>The game window disappears / the game crashes</b></summary>
 
+- It is possible that both the "Patch Inheritance" and the "manual mode" were activated simultaneously. Generally, restarting GIML and retrying can solve this problem, or you can disable the "Patch Inheritance".
 - An incompatible mod is in use — please track it down and remove it
 - Move the launcher directory up one level. For example, if it was previously D:\1\2\GIML, move it up to D:\1\GIML
 - d3dx.ini is misconfigured — use the official XXMI-GIMI or 3DMigoto-GIMI config files, not a third-party bundle
@@ -304,10 +305,10 @@ Please confirm:
 | Item | Info |
 |---|---|
 | Name | GIML (Genshin Impact Mod Launcher) |
-| Version | 2.5.1 |
+| Version | 2.5.2 |
 | Author | Aether |
 | License | Proprietary License |
-| Last updated | June 9, 2026 |
+| Last updated | June 10, 2026 |
 
 ## 🤝 Feedback & Support
 
