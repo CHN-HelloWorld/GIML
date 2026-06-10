@@ -10,7 +10,7 @@
   <img src="icon.png" alt="GIML Icon" width="200">
 
   <p>
-    <img src="https://img.shields.io/badge/version-2.5.1-blue.svg" alt="Version">
+    <img src="https://img.shields.io/badge/version-2.5.2-blue.svg" alt="Version">
     <img src="https://img.shields.io/badge/platform-Windows-lightgrey.svg" alt="Platform">
     <img src="https://img.shields.io/badge/license-Proprietary-red.svg" alt="License">
     <a href="https://github.com/CHN-HelloWorld/GIML/releases/latest"><img src="https://img.shields.io/github/downloads/CHN-HelloWorld/GIML/total" alt="Downloads"></a>
@@ -208,7 +208,7 @@ GIML.exe --auto-launch
 | 截流法 | 过滤传输流量 |
 | 隐匿法 | 传统方案，稳定可靠 |
 | 双生法 | 更轻量、启动更快、针对性强 |
-| 衣钵法 | 新一代方案，针对性极强，效果出众，多设备兼容性好 |
+| 衣钵法 | 新一代方案，针对性极强，效果出众，多设备兼容性好。**手动模式场景兼容性较差，可能会造成游戏崩溃，重启GIML并重试可解决此问题** |
 
 默认全选以获得最佳防护效果。
 </details>
@@ -260,6 +260,7 @@ GIML.exe --auto-launch
 <details>
 <summary><b>游戏窗口不见 / 游戏崩溃</b></summary>
 
+- 可能同时开启了衣钵法和手动模式，一般重启GIML并重试可解决此问题，或者关闭衣钵法
 - 使用了不兼容的 Mod —— 请排查并移除
 - 将启动器目录整体上移一级，如之前是：D:\1\2\GIML，上移一级为：D:\1\GIML
 - d3dx.ini 配置不正确 —— 请使用 XXMI-GIMI 或 3DMigoto-GIMI 官方配置文件，而非第三方整合
@@ -304,10 +305,10 @@ GIML.exe --auto-launch
 | 项目 | 信息 |
 |---|---|
 | 名称 | GIML (Genshin Impact Mod Launcher) |
-| 版本 | 2.5.1 |
+| 版本 | 2.5.2 |
 | 作者 | Aether |
 | 许可证 | 专有软件许可证 (Proprietary License) |
-| 更新时间 | 2026 年 6 月 9 日 |
+| 更新时间 | 2026 年 6 月 10 日 |
 
 ## 🤝 反馈与支持
 
