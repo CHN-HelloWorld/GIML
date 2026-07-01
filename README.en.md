@@ -4,13 +4,13 @@
 
 ⚡ **GIML** — an error-prevention launcher built for running mods in Genshin Impact
 
-**✅ Works with Genshin Impact 6.6**
+**✅ Works with Genshin Impact 6.7**
 
 <div align="center">
   <img src="icon.png" alt="GIML Icon" width="200">
 
   <p>
-    <img src="https://img.shields.io/badge/version-2.5.3-blue.svg" alt="Version">
+    <img src="https://img.shields.io/badge/version-2.6.0-blue.svg" alt="Version">
     <img src="https://img.shields.io/badge/platform-Windows-lightgrey.svg" alt="Platform">
     <img src="https://img.shields.io/badge/license-Proprietary-red.svg" alt="License">
     <a href="https://github.com/CHN-HelloWorld/GIML/releases/latest"><img src="https://img.shields.io/github/downloads/CHN-HelloWorld/GIML/total" alt="Downloads"></a>
@@ -305,10 +305,10 @@ Please confirm:
 | Item | Info |
 |---|---|
 | Name | GIML (Genshin Impact Mod Launcher) |
-| Version | 2.5.3 |
+| Version | 2.6.0 |
 | Author | Aether |
 | License | Proprietary License |
-| Last updated | June 11, 2026 |
+| Last updated | July 1, 2026 |
 
 ## 🤝 Feedback & Support
 
