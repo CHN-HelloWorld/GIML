@@ -1,16 +1,14 @@
-# Genshin Impact Mod Launcher (GIML)
+# Generic Interoperability Mod Launcher (GIML)
 
 [简体中文](README.md) | **English**
 
-⚡ **GIML** — an error-prevention launcher built for running mods in Genshin Impact
-
-**✅ Works with Genshin Impact 6.7**
+⚡ **Generic Interoperability Mod Launcher** — A Mod compatibility and error-recovery tool
 
 <div align="center">
   <img src="icon.png" alt="GIML Icon" width="200">
 
   <p>
-    <img src="https://img.shields.io/badge/version-2.6.0-blue.svg" alt="Version">
+    <img src="https://img.shields.io/badge/version-3.0.0-blue.svg" alt="Version">
     <img src="https://img.shields.io/badge/platform-Windows-lightgrey.svg" alt="Platform">
     <img src="https://img.shields.io/badge/license-Proprietary-red.svg" alt="License">
     <a href="https://github.com/CHN-HelloWorld/GIML/releases/latest"><img src="https://img.shields.io/github/downloads/CHN-HelloWorld/GIML/total" alt="Downloads"></a>
@@ -19,7 +17,7 @@
   **💬 QQ Group: [1075913947](https://qm.qq.com/q/qYrUfeigeI)**
 </div>
 
-> **Compatibility note**: This launcher successfully prevents game errors on most devices. If it doesn't work on yours, please be patient and wait for a future update.
+> **Compatibility notice**: The current version is tested only with supported versions of the target PC game client. Compatibility may change as the target client changes and is not guaranteed on every device or version.
 
 ---
 
@@ -80,7 +78,7 @@
    | GIMI | The GIMI directory of XXMI | Core, Mods, ShaderCache, ShaderFixes folders, and d3dx.ini | d3dcompiler_47.dll, d3dx_user.ini |
    | 3DMigoto | The 3DMigoto program directory (compatible with d3dxSkinManage's work directory) | Mods, ShaderCache, ShaderFixes folders, 3DMigoto Loader.exe, d3dx.ini | d3dcompiler_46.dll, d3dx_user.ini |
 
-3. **Set the Genshin path** — select `YuanShen.exe` or `GenshinImpact.exe`
+3. **Set the game path** — select the target game
 
 4. **Advanced settings (optional)** — click the ⚙️ Settings button to configure the DLL version, error-prevention methods, frame rate, extensions, and more
 
@@ -88,7 +86,7 @@
 
 > **Run as administrator** → **Click Launch** → **Auto-exits after 3 seconds**
 
-> ⚠️ **Fair-play commitment**: When FPS unlock is enabled, the program automatically restores the native frame rate in scenes such as Miliastra Wonderland, Stygian Onslaught, the Spiral Abyss, and the Imaginarium Theater. High frame rates are only available during open-world exploration and other ordinary scenes. Combining it with macros or cheat tools is strictly prohibited!
+> ⚠️ **Fair-play commitment**: If frame-rate adjustment is enabled, the program automatically restores the native frame rate in competitive, challenge, or otherwise restricted scenarios, and enables a higher frame rate only in ordinary exploration scenarios. Do not combine this feature with macros or other cheating tools to disrupt game balance.
 
 ---
 
@@ -233,7 +231,7 @@ Basic mode is the default. If Basic still produces errors, switch to Enhanced. *
 <details>
 <summary><b>The launcher reports it is incompatible with the game version</b></summary>
 
-Use the launcher's auto-repair feature. If errors persist after repair, please update the launcher.
+Make sure the configured game path is correct, then check or repair the game files with the official launcher and try again. If the version-incompatibility message still appears, update this launcher.
 </details>
 
 <details>
@@ -277,7 +275,7 @@ We recommend matching your monitor's refresh rate: 60Hz→60FPS, 144Hz→144FPS,
 <details>
 <summary><b>The frame rate automatically drops in combat scenes</b></summary>
 
-To maintain a fair game environment, the program automatically restores the native frame rate in scenes such as Miliastra Wonderland, Stygian Onslaught, and the Spiral Abyss, and restores your configured value once you leave.
+If frame-rate adjustment is enabled, the program automatically restores the native frame rate in competitive, challenge, or otherwise restricted scenarios, and enables a higher frame rate only in ordinary exploration scenarios. Do not combine this feature with macros or other cheating tools to disrupt game balance.
 </details>
 
 <details>
@@ -304,11 +302,11 @@ Please confirm:
 
 | Item | Info |
 |---|---|
-| Name | GIML (Genshin Impact Mod Launcher) |
-| Version | 2.6.0 |
+| Name | GIML (Generic Interoperability Mod Launcher) |
+| Version | 3.0.0 |
 | Author | Aether |
 | License | Proprietary License |
-| Last updated | July 1, 2026 |
+| Last updated | August 12, 2026 |
 
 ## 🤝 Feedback & Support
 

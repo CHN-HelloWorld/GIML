@@ -1,16 +1,14 @@
-# 原神 Mod 启动器 (GIML)
+# 通用模组兼容启动器 (GIML)
 
 **简体中文** | [English](README.en.md)
 
-⚡ **Genshin Impact Mod Launcher** — 专为原神设计的 Mod 防报错启动工具
-
-**✅ 6.7 版本可用**
+⚡ **Generic Interoperability Mod Launcher** — Mod兼容性、报错修复工具
 
 <div align="center">
   <img src="icon.png" alt="GIML Icon" width="200">
 
   <p>
-    <img src="https://img.shields.io/badge/version-2.6.0-blue.svg" alt="Version">
+    <img src="https://img.shields.io/badge/version-3.0.0-blue.svg" alt="Version">
     <img src="https://img.shields.io/badge/platform-Windows-lightgrey.svg" alt="Platform">
     <img src="https://img.shields.io/badge/license-Proprietary-red.svg" alt="License">
     <a href="https://github.com/CHN-HelloWorld/GIML/releases/latest"><img src="https://img.shields.io/github/downloads/CHN-HelloWorld/GIML/total" alt="Downloads"></a>
@@ -19,7 +17,7 @@
   **💬 QQ 交流群：[1075913947](https://qm.qq.com/q/qYrUfeigeI)**
 </div>
 
-> **兼容性提示**：本启动器在大部分设备上有效规避游戏报错。如果您的设备无法正常使用，请耐心等待后续版本更新。
+> **兼容性说明**：当前版本仅针对受支持的 PC 游戏客户端版本进行测试。兼容性可能随目标客户端的变化而变化，无法保证在所有设备或版本上正常运行。
 
 ---
 
@@ -80,7 +78,7 @@
    | GIMI | XXMI 的 GIMI 目录 | Core、Mods、ShaderCache、ShaderFixes 文件夹，d3dx.ini | d3dcompiler_47.dll、d3dx_user.ini |
    | 3DMigoto | 3DMigoto 程序目录（兼容 d3dxSkinManage 的 work 目录） | Mods、ShaderCache、ShaderFixes 文件夹，3DMigoto Loader.exe、d3dx.ini | d3dcompiler_46.dll、d3dx_user.ini |
 
-3. **配置原神路径** — 选择 `YuanShen.exe` 或 `GenshinImpact.exe`
+3. **配置游戏路径** — 选择目标游戏
 
 4. **高级设置（可选）** — 点击 ⚙️ 设置 按钮配置 DLL 版本、防报错方案、帧率、扩展功能等
 
@@ -88,7 +86,7 @@
 
 > **管理员运行** → **点击启动** → **3 秒后自动退出**
 
-> ⚠️ **公平游戏承诺**：若开启了解帧，在千星奇遇、幽境危战、深境螺旋、幻想真境剧诗等场景中，程序会自动恢复原生帧率，仅在大世界探索或其他普通场景开放高帧率。严禁结合宏或作弊工具使用！
+> ⚠️ **公平游戏承诺**：若启用帧率调整功能，程序会在竞技、挑战或受限制场景中自动恢复原生帧率，仅在普通探索场景启用高帧率。严禁结合宏或其他作弊工具破坏游戏平衡。
 
 ---
 
@@ -233,7 +231,7 @@ GIML.exe --auto-launch
 <details>
 <summary><b>启动器报错与游戏版本不兼容</b></summary>
 
-使用启动器的自动修复功能。若修复后仍报错，请更新启动器。
+请确认“游戏路径”设置正确，并通过官方启动器检查或修复游戏文件后重试。若仍然提示版本不兼容，请更新本启动器。
 </details>
 
 <details>
@@ -277,7 +275,7 @@ GIML.exe --auto-launch
 <details>
 <summary><b>战斗场景帧率自动降低</b></summary>
 
-为维护公平游戏环境，程序在千星奇遇、幽境危战、深境螺旋等场景中自动恢复原生帧率，离开后自动恢复设置值。
+若启用帧率调整功能，程序会在竞技、挑战或受限制场景中自动恢复原生帧率，仅在普通探索场景启用高帧率。严禁结合宏或其他作弊工具破坏游戏平衡。
 </details>
 
 <details>
@@ -304,11 +302,11 @@ GIML.exe --auto-launch
 
 | 项目 | 信息 |
 |---|---|
-| 名称 | GIML (Genshin Impact Mod Launcher) |
-| 版本 | 2.6.0 |
+| 名称 | GIML (Generic Interoperability Mod Launcher) |
+| 版本 | 3.0.0 |
 | 作者 | Aether |
 | 许可证 | 专有软件许可证 (Proprietary License) |
-| 更新时间 | 2026 年 7 月 1 日 |
+| 更新时间 | 2026 年 8 月 12 日 |
 
 ## 🤝 反馈与支持
 
