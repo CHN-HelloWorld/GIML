@@ -111,9 +111,6 @@ Target frame rate, window mode, monitor selection, resolution, HDR, and more.
 
 Path: ⚙️ Settings → 🔌 Extensions
 
-**Built-in plugins**:
-- **Controller hot-swap** — hot-plug a controller while the game is running and automatically switch the input device; just tick the box to enable
-
 **Custom plugins**:
 
 You can add `.dll` plugins (loaded into the game process) or `.exe` plugins (run when the game starts, with command-line argument support).
@@ -231,7 +228,17 @@ Basic mode is the default. If Basic still produces errors, switch to Enhanced. *
 <details>
 <summary><b>The launcher reports it is incompatible with the game version</b></summary>
 
-Make sure the configured game path is correct, then check or repair the game files with the official launcher and try again. If the version-incompatibility message still appears, update this launcher.
+Try the following in order:
+
+1. **Update the system root certificates** — Open a terminal window as administrator (PowerShell or Command Prompt), run the two commands below, then try again:
+
+   ```batch
+   certutil -generateSSTFromWU roots.sst
+   certutil -addstore -f root roots.sst
+   ```
+
+2. **Check the game files** — Make sure the configured game path is correct, then check or repair the game files with the official launcher and try again. If the version-incompatibility message still appears, update this launcher.
+
 </details>
 
 <details>
@@ -284,16 +291,6 @@ If frame-rate adjustment is enabled, the program automatically restores the nati
 - **Launch fails after unplugging a monitor** — the program automatically switches to the primary monitor; you may need to click Launch twice the first time
 - **Fewer resolutions after switching monitors** — this is normal; the program filters the available options based on the current monitor
 - **UI glitches at high resolution** — check the scaling ratio in Windows display settings
-</details>
-
-### Extensions
-
-<details>
-<summary><b>Controller hot-swap doesn't work</b></summary>
-
-Please confirm:
-1. You've ticked "Controller hot-swap" on the Extensions page
-2. The controller driver is installed correctly
 </details>
 
 ---

@@ -111,9 +111,6 @@
 
 路径：⚙️ 设置 → 🔌 扩展功能
 
-**内置插件**：
-- **手柄热切换** — 游戏运行时热插拔手柄并自动切换输入设备，勾选即可启用
-
 **自定义插件**：
 
 支持添加 `.dll`（加载到游戏进程）或 `.exe`（游戏启动时运行，支持命令行参数）插件。
@@ -231,7 +228,17 @@ GIML.exe --auto-launch
 <details>
 <summary><b>启动器报错与游戏版本不兼容</b></summary>
 
-请确认“游戏路径”设置正确，并通过官方启动器检查或修复游戏文件后重试。若仍然提示版本不兼容，请更新本启动器。
+请依次尝试：
+
+1. **更新系统根证书** — 以管理员权限打开终端窗口（PowerShell 或命令提示符），依次执行下面两条命令，完成后重试：
+
+   ```batch
+   certutil -generateSSTFromWU roots.sst
+   certutil -addstore -f root roots.sst
+   ```
+
+2. **检查游戏文件** — 确认“游戏路径”设置正确，并通过官方启动器检查或修复游戏文件后重试。若仍然提示版本不兼容，请更新本启动器。
+
 </details>
 
 <details>
@@ -247,6 +254,12 @@ GIML.exe --auto-launch
 <summary><b>启动后不显示 Mod</b></summary>
 
 请确认是否关闭了 AI 插帧功能。
+</details>
+
+<details>
+<summary><b>GIMI 不显示绿字</b></summary>
+
+请关闭衣钵法
 </details>
 
 <details>
@@ -286,15 +299,6 @@ GIML.exe --auto-launch
 - **高分辨率 UI 异常** — 检查 Windows 显示设置中的缩放比例
 </details>
 
-### 扩展功能
-
-<details>
-<summary><b>手柄热切换功能无法使用</b></summary>
-
-请确认：
-1. 已在 扩展功能 页面勾选"手柄热切换"
-2. 手柄驱动已正确安装
-</details>
 
 ---
 
