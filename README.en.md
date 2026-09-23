@@ -8,7 +8,7 @@
   <img src="icon.png" alt="GIML Icon" width="200">
 
   <p>
-    <img src="https://img.shields.io/badge/version-3.0.0-blue.svg" alt="Version">
+    <img src="https://img.shields.io/badge/version-3.1.0-blue.svg" alt="Version">
     <img src="https://img.shields.io/badge/platform-Windows-lightgrey.svg" alt="Platform">
     <img src="https://img.shields.io/badge/license-Proprietary-red.svg" alt="License">
     <a href="https://github.com/CHN-HelloWorld/GIML/releases/latest"><img src="https://img.shields.io/github/downloads/CHN-HelloWorld/GIML/total" alt="Downloads"></a>
@@ -300,10 +300,10 @@ If frame-rate adjustment is enabled, the program automatically restores the nati
 | Item | Info |
 |---|---|
 | Name | GIML (Generic Interoperability Mod Launcher) |
-| Version | 3.0.0 |
+| Version | 3.1.0 |
 | Author | Aether |
 | License | Proprietary License |
-| Last updated | August 12, 2026 |
+| Last updated | September 23, 2026 |
 
 ## 🤝 Feedback & Support
 
